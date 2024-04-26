@@ -1,0 +1,106 @@
+/* Page Style */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.full-height {
+  width: 100%;
+  height: 100%;
+}
+
+:focus {
+  outline: none;
+}
+
+/* Login Page */
+.loginheader {
+  background: #2c3e50; /* Dark blue */
+  height: 80px;
+  color: #fff; /* White */
+  line-height: 80px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.logincontent {
+  background: #f0f0f0; /* Light gray */
+  height: calc(100% - 160px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginfooter {
+  background: #34495e; /* Darker blue */
+  height: 80px;
+  color: #fff; /* White */
+  line-height: 80px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.popupwindow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: #fff; /* White */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  width: 300px; /* Adjust the width */
+}
+
+.loginstyle {
+  width: 100%;
+  padding: 40px;
+  background: #fff; /* White */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Center the form */
+}
+
+.txtbox {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  border: 2px solid #ccc; /* Light gray */
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  background: #3498db; /* Blue */
+  color: #fff; /* White */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.linklabel {
+  color: #3498db; /* Blue */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px; /* Medium size */
+}
+
+.linklabel:hover {
+  text-decoration: underline;
+}
